@@ -8,8 +8,10 @@ class Program
 {
     static async Task Main(string[] args)
     {
+        // Direccón de la API de la que se obtendrá la información.
         string url = "https://rickandmortyapi.com/api/character";
 
+        // Se realiza la solicitud a la URL proporcionada.
         using (HttpClient client = new HttpClient())
         {
             try
@@ -23,8 +25,7 @@ class Program
                     // Deserializar el JSON a objetos C#
                     RootObject rickAndMortyData = JsonSerializer.Deserialize<RootObject>(content);
 
-                    // Acceder a la información
-                    Console.WriteLine($"Número de personajes: {rickAndMortyData.info.count}");
+                    // Se itera a través de los resultados (personajes).
 
                     foreach (var character in rickAndMortyData.results)
                     {
@@ -48,6 +49,9 @@ class Program
     }
 
 
+    // A continucaión se definen las clases que representan la estrucuta de datos JSON devueltos por la API.
+
+    [Serializable]
     public class Info
     {
         public int count { get; set; }
@@ -56,17 +60,21 @@ class Program
         public string prev { get; set; }
     }
 
+    [Serializable]
     public class Origin
     {
         public string name { get; set; }
         public string url { get; set; }
     }
 
+    [Serializable]
     public class Location
     {
         public string name { get; set; }
         public string url { get; set; }
     }
+
+    [Serializable]
 
     public class Character
     {
@@ -84,6 +92,9 @@ class Program
         public DateTimeOffset created { get; set; }
     }
 
+    // Utilzamos esta clase para deserializar la estructura JSON con los elementos que tenga el JSON, en este caso son dos, info y results.
+
+    [Serializable]
     public class RootObject
     {
         public Info info { get; set; }
