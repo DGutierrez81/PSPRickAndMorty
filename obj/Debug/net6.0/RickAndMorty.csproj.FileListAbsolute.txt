@@ -1,0 +1,14 @@
+E:\PSP\Encriptar\RickAndMorty\bin\Debug\net6.0\RickAndMorty.exe
+E:\PSP\Encriptar\RickAndMorty\bin\Debug\net6.0\RickAndMorty.deps.json
+E:\PSP\Encriptar\RickAndMorty\bin\Debug\net6.0\RickAndMorty.runtimeconfig.json
+E:\PSP\Encriptar\RickAndMorty\bin\Debug\net6.0\RickAndMorty.dll
+E:\PSP\Encriptar\RickAndMorty\bin\Debug\net6.0\RickAndMorty.pdb
+E:\PSP\Encriptar\RickAndMorty\obj\Debug\net6.0\RickAndMorty.GeneratedMSBuildEditorConfig.editorconfig
+E:\PSP\Encriptar\RickAndMorty\obj\Debug\net6.0\RickAndMorty.AssemblyInfoInputs.cache
+E:\PSP\Encriptar\RickAndMorty\obj\Debug\net6.0\RickAndMorty.AssemblyInfo.cs
+E:\PSP\Encriptar\RickAndMorty\obj\Debug\net6.0\RickAndMorty.csproj.CoreCompileInputs.cache
+E:\PSP\Encriptar\RickAndMorty\obj\Debug\net6.0\RickAndMorty.dll
+E:\PSP\Encriptar\RickAndMorty\obj\Debug\net6.0\refint\RickAndMorty.dll
+E:\PSP\Encriptar\RickAndMorty\obj\Debug\net6.0\RickAndMorty.pdb
+E:\PSP\Encriptar\RickAndMorty\obj\Debug\net6.0\RickAndMorty.genruntimeconfig.cache
+E:\PSP\Encriptar\RickAndMorty\obj\Debug\net6.0\ref\RickAndMorty.dll
